@@ -1,0 +1,376 @@
+.body {
+  background-color: #2b2e34;
+  padding-top: 14px; 
+  margin-top: 14px;
+  padding-right: 24px;
+  padding-left: 24px;
+  margin: 0;
+}
+#titre {
+  font-size: 42px;
+  width: 954px;
+  height: 57px;
+  weight: 700px;
+  text-align: center;
+  line-height: 57.29px;
+  margin-bottom: 10px;
+  color: #ffff;
+  margin-left: 200px;
+}
+.para {
+  font-size: 20px;
+  width: 954px;
+  height: 27px;
+  weight: 700px;
+  text-align: center;
+  line-height: 27.28px;
+  color: #afc0e2;
+  margin-bottom: 80px;
+  margin-left: 190px;
+}
+.logo {
+  width: 168px;
+  height: 44px;
+  top: 36px;
+  left: 120px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 40px;
+}
+.Home {
+  color: #ffff;
+  Property 1="Default";
+  width: Hug (91px)px;
+  height: Fixed (44px)px;
+  padding: 11px 19px 9px 22px;
+  gap: 10px;
+  opacity: 0px; 
+  display: flex;
+
+}
+.Product {
+  color: #ffff;
+  Property 1="Active";
+  width: Hug (113px)px;
+  height: Fixed (44px)px;
+  padding: 11px 19px 9px 19px;
+  gap: 10px;
+  opacity: 0px;
+ display: flex;
+  
+}
+.FAQ {
+  color: #ffff;
+  Property 1="Default";
+  width: Hug (75px)px;
+  height: Fixed (44px)px;
+  padding: 11px 19px 9px 19px;
+  gap: 10px;
+  opacity: 0px;
+ 
+ 
+  
+}
+.Contact {
+  color: #ffff;
+  Property 1="Default";
+  width: Hug (103px)px;
+  height: Fixed (44px)px;
+  padding: 11px 19px 9px 19px;
+  gap: 10px;
+  opacity: 0px;
+  
+ 
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+div ul{
+  list-style: none;
+  padding: 0;
+}
+div ul li{
+  display: inline;
+  margin: 0 15px;
+}
+div ul li a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #FFFFFF;
+
+  
+}
+div ul li a:hover {
+  color: red;
+}
+.pa{
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.82px;
+  text-align: center;
+  width: 300px;
+  height: 59px;
+  top: 83px;
+  gap: 0px;
+  opacity: 0px;
+  color: #AFC0E2;
+
+
+}
+.product1{
+  border-radius: 8px;
+  width: 300px;
+  height: 160px;
+  top: 22px;
+  gap: 0px;
+  background: #0D1423;
+}
+.product2{
+  border-radius: 8px;
+  width: 300px;
+  height: 160px;
+  top: 22px;
+  gap: 0px;
+  background: #0D1423;
+
+  
+}
+.Product3{
+  border-radius: 8px;
+  width: 300px;
+  height: 160px;
+  top: 22px;
+  gap: 0px;
+  background: #0D1423;
+  
+}
+.Products{
+  display: flex;
+  justify-content: center;
+  width: Fill (954px)px;
+  height: Hug (182px)px;
+  gap: 27px;
+  opacity: 0px;
+  margin-bottom: 100px;
+
+}
+#footer{
+  width: 1192px;
+  height: 100.71px;
+  top: 785.29px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+.footerImage{
+  width: 519.19px;
+  height: 199.93px;
+  /*top: 687px;*/
+  left: 331px;
+  padding: 1px 0px 0px 0px;
+  gap: 0px;
+  opacity: 0px;
+  display: block;
+  margin: 0px auto;
+  box-shadow: black;
+  left:50px;
+  top: 100px;
+  position: relative;
+}
+.picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55px;
+  height: 38.5px;
+  /*top: 2.75px;*/
+  gap: 0px;
+  opacity: 0px;
+  /*left:10px;*/
+  position: relative;
+  top: -25px; 
+  left: 1Opx;
+  border-radius: 5px;
+  
+  
+  /*1192px/100.71px*/
+ 
+}
+.div-footer{ 
+  background-color:  #757D8E; /* Couleur de fond */
+  width: 75rem;  /* Largeur*/
+  height: 10rem; /* Hauteur*/
+  overflow: hidden;
+  Top:1rem; 
+  /*border-radius: 70% 70% 0px 0px;*/ 
+  border-radius: 10rem 10rem 0 0;
+}
+/* Animation de transition de couleur de fond */
+@keyframes changementCouleur {
+  0% {
+      background-color: red;
+  }
+  50% {
+      background-color: blue;
+  }
+  100% {
+      background-color: green;
+  }
+}
+.body {
+  animation: changementCouleur 10s ;
+}
+/*responsive web for phone*/
+@media(max-width:480px) {
+  body {
+    background-color: #2b2e34;
+    margin: 0;
+    padding: 14px 24px;
+  }
+
+  #titre {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    margin: 0 auto 10px;
+    color: #ffffff;
+    max-width: 100%;
+  }
+
+  .para {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    color: #afc0e2;
+    margin: 0 auto 40px;
+    max-width: 100%;
+  }
+
+  .logo {
+    /*width: 100px;
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;*/
+    width: 168px;
+    height: 44px;
+    top: 36px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: 200px;
+  }
+
+  .Products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .div ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .div ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .div ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .div ul li a:hover {
+    color: red;
+  }
+
+  .pa {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    color: #afc0e2;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .product1,
+  .product2,
+  .product3 {
+    border-radius: 8px;
+    width: 90%;
+    max-width: 300px;
+    height: 160px;
+    background: #0d1423;
+    margin: 10px auto;
+    height: auto;
+  }
+
+  .Products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }      
+
+  #footer {
+    width: 100%;
+    max-width: 1192px;
+    height: 100.71px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .footerImage {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .picture {
+    display: block;
+    margin: -25px auto 0;
+    width: 55px;
+    height: 38.5px;
+    border-radius: 5px;
+  }
+
+  .div-footer {
+    background-color: #757d8e;
+    width: 100%;
+    max-width: 75rem;
+    height: 10rem;
+    overflow: hidden;
+    border-radius: 10rem 10rem 0 0;
+    margin: 20px auto 0;
+  }
+
+/* Animation de transition de couleur de fond */
+  @keyframes changementCouleur {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: green;
+    }
+  }
+
+  body {
+    animation: changementCouleur 10s;
+  }
+ 
+}
